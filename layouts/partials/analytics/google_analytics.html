@@ -1,0 +1,11 @@
+{{/* 
+  Override HugoBlox Google Analytics partial.
+  Prevents crash when .Site.GoogleAnalytics is undefined.
+*/}}
+
+{{ with site.Config.Services.GoogleAnalytics }}
+  {{ if .ID }}
+    <!-- Google Analytics disabled or empty -->
+  {{ end }}
+{{ end }}
+
