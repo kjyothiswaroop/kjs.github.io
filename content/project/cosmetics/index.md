@@ -1,5 +1,5 @@
 ---
-title: Cosmetics Semantic Search
+title: Project 2
 summary: Write about your project here...
 tags:
   - NLP

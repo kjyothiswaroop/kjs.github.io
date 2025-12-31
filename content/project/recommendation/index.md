@@ -1,5 +1,5 @@
 ---
-title: Recommendation Systems
+title: Project 3
 summary: Write about your project here...
 tags:
   - ML

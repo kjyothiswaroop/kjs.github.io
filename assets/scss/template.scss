@@ -1,8 +1,11 @@
 // Starter Blog Template
 // https://hugoblox.com/hugo-themes/
+header{
+  top: auto;
+}
 
 body {
-  background-color: rgb(247, 250, 252);
+  background-color: rgb(254, 254, 255);
 }
 
 .article-container {
@@ -16,7 +19,8 @@ body {
 
 // custom footer color
 .page-footer {
-  background-color: rgb(247, 250, 252);
+  background-color: rgb(255, 255, 255);
+  height: 0px;
 }
 
 .dark .page-footer {
@@ -35,7 +39,14 @@ body {
 
 // no navbar shadow
 .navbar {
-  box-shadow: none !important; // 'important' to override dark mode box-shadow too.
+  box-shadow: white !important; // 'important' to override dark mode box-shadow too.
+  border-bottom: 1px solid #ffffff;
+  background-color: rgb(250, 248, 248);
+}
+
+.dark .navbar {
+  box-shadow: none !important; 
+  border-bottom: 1px solid #f7f5f5;
 }
 
 // custom section padding
@@ -65,13 +76,13 @@ ul.network-icon .big-icon {
   font-weight: bold;
 }
 
-.home-section > .content {
+.home-section>.content {
   width: 45em;
   max-width: calc(100% - 4em);
-  margin: 0 auto;
+  margin: 0;
 }
 
-.home-section > .content > :last-child {
+.home-section>.content> :last-child {
   margin-bottom: 0;
 }
 
@@ -85,6 +96,7 @@ ul.network-icon .big-icon {
     max-width: 880px;
   }
 }
+
 @media (min-width: 992px) {
   .home-section .container {
     max-width: 880px;
@@ -115,3 +127,10 @@ ul.network-icon .big-icon {
 .wg-about .portrait-title h3 {
   font-size: 0.8rem;
 }
+
+// Hide avatar on homepage
+.wg-about-avatar .avatar {
+  display: none;
+}
+
+@import "custom";

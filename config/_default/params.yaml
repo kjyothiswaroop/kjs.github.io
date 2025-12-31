@@ -35,17 +35,18 @@ header:
   navbar:
     enable: true
     align: r
-    show_logo: false
+    show_logo: true
+    show_title: false
     show_language: false
-    show_day_night: true
+    show_day_night: false
     show_search: true
     highlight_active_link: false
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Jyothi Swaroop. All rights reserved'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -69,7 +70,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/kjyothiswaroop/kjyothiswaroop.github.io'
     content_dir: content
     branch: main
   avatar:
@@ -105,3 +106,20 @@ extensions:
     local_backend: false
   academicons:
     enable: false
+
+logo_name: Jyothi Swaroop
+logo_degree: M.S. Robotics
+logo_school_full: Northwestern University
+logo_school_compact: 'Northwestern'
+
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:jyothikasina2026@u.northwestern.edu' # For a direct email link, use "mailto:test@example.org".
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/kjswaroop-robotics/
+  # Uncomment below for Github link
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/kjyothiswaroop
