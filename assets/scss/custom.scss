@@ -183,3 +183,10 @@ footer {
   font-size: 0.5rem;
 }
 
+.card .card-image.hover-overlay::after {
+  content: "View Project" !important;
+  font-family: Arial, sans-serif !important;
+  font-size: 18px !important;
+  color: black !important;
+  font-weight: bold !important;
+}
