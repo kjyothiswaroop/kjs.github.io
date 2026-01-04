@@ -1,5 +1,5 @@
 ---
-title: Project 4
+title: Project 2
 summary: Write about your project here...
 tags:
   - ML

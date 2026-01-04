@@ -10,7 +10,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 1
 
-title: ''
+title: 'Projects'
 subtitle: ''
 
 content:
@@ -41,4 +41,5 @@ design:
   flip_alt_rows: true
   background: {}
   spacing: {padding: [0, 0, 0, 0]}
+
 ---

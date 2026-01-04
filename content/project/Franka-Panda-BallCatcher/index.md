@@ -1,9 +1,23 @@
 ---
-title: Project 1
-summary: Write about your project here...
+type: project
+title: Franka Ball Catcher
+summary: Trajectory Prediction and Ball Interception Using Vision 
 tags:
-  - CV
-date: 2022-01-01
+  - ROS2
+  - OpenCV
+  - YOLO
+  - Realsense
+  - ZED2i
+  - Trajectory Prediction
+
+date: 2026-01-03
+share: false
+links:
+  - name: Code
+    url: https://github.com/kjyothiswaroop/Franka-Panda-BallCatcher
+    icon: github
+    icon_pack: fab
+# image: "https://www.youtube.com/watch?v=KEsO1CyqTHA"
 ---
 
-Hello Its me
+Franka Emika Panda Robot Arm is catching a ball.

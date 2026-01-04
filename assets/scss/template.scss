@@ -107,6 +107,11 @@ ul.network-icon .big-icon {
   }
 }
 
+// Make portfolio section wider for larger project cards
+.home-section.wg-portfolio .container {
+  max-width: 1500px;
+}
+
 // Custom avatar size on homepage
 .avatar {
   width: auto;
