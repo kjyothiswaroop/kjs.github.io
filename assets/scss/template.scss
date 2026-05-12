@@ -256,6 +256,7 @@ ul.network-icon .big-icon {
 .project-image {
   margin: 0.75rem auto 1.25rem;
   max-width: 1200px;
+  width: 100%;
 }
 
 .project-embed iframe,
@@ -264,6 +265,11 @@ ul.network-icon .big-icon {
   width: 100%;
   border-radius: 12px;
   display: block;
+}
+
+.project-embed iframe {
+  aspect-ratio: 16 / 9;
+  height: auto;
 }
 
 .project-embed video {

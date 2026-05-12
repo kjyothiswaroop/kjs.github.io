@@ -36,9 +36,7 @@
           {{ $is_embed := or (strings.Contains $video "youtube.com") (strings.Contains $video "youtu.be") (strings.Contains $video "vimeo.com") }}
           <div class="project-embed">
             {{ if $is_embed }}
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="{{ $video | safeURL }}" allowfullscreen loading="lazy"></iframe>
-              </div>
+              <iframe src="{{ $video | safeURL }}" allowfullscreen loading="lazy" frameborder="0"></iframe>
             {{ else }}
               <video controls playsinline preload="metadata" autoplay muted loop>
                 <source src="{{ $video | safeURL }}" type="video/mp4">
