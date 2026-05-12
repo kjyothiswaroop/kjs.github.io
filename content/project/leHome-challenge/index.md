@@ -19,7 +19,7 @@ links:
     icon: github
     icon_pack: fab
 author: Jyothi Swaroop
-video: https://youtu.be/m24g43MBf3A
+video: https://www.youtube.com/embed/m24g43MBf3A
 project_title: 'LeHome Challenge (ICRA 2026): Bimanual Cloth Folding via Imitation Learning'
 ---
 
