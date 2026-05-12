@@ -8,3 +8,6 @@ assets/jsconfig.json
 
 go.sum
 .hugo_build.lock
+
+graphify-out/
+.claude/
